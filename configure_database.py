@@ -4,8 +4,10 @@ from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 
+# Declarative System used for mapping database
 Base = declarative_base()
 
+#F5Device holds information specific to each F5 device
 class F5Device(Base):
     __tablename__ = 'f5_device'
 
@@ -16,6 +18,7 @@ class F5Device(Base):
     apiUserName = Column(String(50))
     apiPassword = Column(String(50))
 
+#AFMStat holds information about the various AFM stats and contains the URI to gather the data through the F5 API.
 class AFMStat(Base):
     __tablename__ = 'afm_stat'
 
@@ -25,6 +28,7 @@ class AFMStat(Base):
     statDescription = Column(String(250))
     statURL = Column(String(250), nullable=False)
 
+#StatValue holds date, time and value information for the various 
 class StatValue(Base):
     __tablename__ = 'stat_value'
 
@@ -33,7 +37,7 @@ class StatValue(Base):
     dateTime = Column(DateTime)
     statValue = Column(Integer)
 
-
+#Create database named F5AFM_App.db
 engine = create_engine('sqlite:///F5AFM_App.db')
-
+#Apply all metadata to database, F5AFM_App.db.
 Base.metadata.create_all(engine)
