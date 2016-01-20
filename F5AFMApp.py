@@ -12,6 +12,13 @@ def favicon():
 def home():
     return render_template('home.html')
 
-@app.route
+@app.route('/device/')
+def deviceList():
+    pass
+
+@app.route('/device/new')
+def newDevice():
+    pass
+
 if __name__=='__main__':
     app.run(host='0.0.0.0', port=80, debug=True)
