@@ -33,7 +33,7 @@ def newDevice():
 	if request.method == 'POST':
 		device = F5Device(hostName = request.form['hostName'], ipAddress = request.form['ipAddress'], details = request.form['details'], apiUserName = request.form['apiUserName'], apiPassword = request.form['apiPassword'])
 		session.add(device)
-		session.commit()
+		session.commt()
 		return redirect(url_for('deviceList'))
 	else:
 		return render_template('newdevice.html')
