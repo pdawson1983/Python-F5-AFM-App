@@ -13,7 +13,7 @@ def parser(data):
 			newdict[stat] = data["entries"][entry]['nestedStats']["entries"][stat]
 		AFMDict[entry]['vectorName'] = newdict['vectorName']['description']
 		#Debug Print
-		#print newdict.pop('vectorName')['description']
+		newdict.pop('vectorName')['description']
 		for key in newdict:
 			#Debug Print
 			#print "%s \t %s " %(key.strip('common.'), newdict[key]['value'])
