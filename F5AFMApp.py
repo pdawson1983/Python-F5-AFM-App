@@ -22,10 +22,10 @@ def favicon():
 def home():
     return render_template('home.html')
 
+@app.route('/device/')
 @app.route('/devices/')
 def deviceList():
     devices = session.query(F5Device).all()
-    print devices
     return render_template('devicelist.html', devices=devices)
 
 @app.route('/device/new', methods=['GET','POST'])
@@ -40,7 +40,8 @@ def newDevice():
 
 @app.route('/device/<int:device_id>')
 def device(device_id):
-    return "%s" % device_id
+    device = session.query(F5Device).filter_by(id = device_id).one()
+    return  render_template('device.html', device=device)
 
 @app.route('/device/<int:device_id>/stats/<int:stats_id>')
 def statPage(device_id, stats_id):
@@ -49,7 +50,7 @@ def statPage(device_id, stats_id):
     return text
 
 @app.route('/device/<int:device_id>/stats/new')
-def newStat():
+def newStat(device_id):
 	return "This page will allow you to add stats. :)"
 
 
