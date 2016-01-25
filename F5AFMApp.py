@@ -1,5 +1,5 @@
 import os
-from flask import Flask, url_for, send_from_directory, get_flashed_messages, session, request, render_template, redirect
+from flask import Flask, url_for, send_from_directory, flash, get_flashed_messages, session, request, render_template, redirect
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from configure_database import Base, F5Device, AFMStat, StatValue
@@ -12,6 +12,7 @@ session = DBSession()
 
 #spawn Flask application
 app = Flask(__name__)
+app.secret_key = '13641ijkqrewf9dflkq359faan230fanoacv92r3noj2398cncq92njfqwfughq9f0823nbr9fjawh90q23rlkijqhwef98qroh'
 #Added Favicon Support
 @app.route('/favicon.ico')
 def favicon():
@@ -34,6 +35,7 @@ def newDevice():
 		device = F5Device(hostName = request.form['hostName'], ipAddress = request.form['ipAddress'], details = request.form['details'], apiUserName = request.form['apiUserName'], apiPassword = request.form['apiPassword'])
 		session.add(device)
 		session.commit()
+		flash("Added New Device - %s" %device.hostName)
 		return redirect(url_for('deviceList'))
 	else:
 		return render_template('newdevice.html')
