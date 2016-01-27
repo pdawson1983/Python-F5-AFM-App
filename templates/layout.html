@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang='en-US'>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+		
+	<title>F5 AFM Statistics App</title>
+</head>
+	<body>
+	<div class="container">
+	{% block header %}
+	<div class="jumbotron">
+	<div id="appname"><h1>F5 AFM Stats</h1></div>
+	</div>
 		<script>
 			$(document).ready(function(){$("#appname").click(function(){
 					window.location = '{{url_for("home")}}';
 				});
 		     	});
 	     	</script>
-	<title>F5 AFM Statistics App</title>
-	<header>
-	{% block header %}
-		<div id="appname">F5 AFM Stats</div>
 	{% endblock %}
-	</header>
-	<body>
 		<div id="content">
 			{% block content %}{% endblock %}
 		</div>
+	</div>
 	</body>
-	{% block scripts %}{% endblock %}	
-
+	{% block scripts %}{% endblock %}
 </html>
 
