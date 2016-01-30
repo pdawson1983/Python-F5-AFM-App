@@ -18,7 +18,7 @@ f5appControllers.HeaderController = function($scope, $window, $location){
 
 };
 
-f5appControllers.newDeviceController = function($scope){
+f5appcontrollers.newDeviceController = function($scope){
 	$scope.test2= "test"
 };
 

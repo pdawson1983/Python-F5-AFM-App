@@ -8,6 +8,7 @@
 
   
 <span ng-controller="newDeviceController">
+	{& test2 &}
 <form id="newDevice" action="{{url_for('newDevice')}}" method="POST"> 
 	Host Name: <input type="text" name="hostName" /></br> 
 	IP Address: <input type="text" name="ipAddress" /></br>
