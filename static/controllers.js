@@ -18,6 +18,12 @@ f5appControllers.HeaderController = function($scope, $window, $location){
 };
 
 f5appControllers.newDeviceController = function($scope){
+	$scope.device = {
+		hostName: '',
+		ipAddress: '',
+		apiUserName: '',
+		apiPassword: ''
+	};
 };
 
 //Link list of controllers to app
