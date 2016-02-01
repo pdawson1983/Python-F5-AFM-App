@@ -5,35 +5,43 @@
 {% endblock %}
 
 {% block content %}
-
-  
+<style>
+.well{
+background-color: rgb(255, 204, 153);
+}
+</style>	
 <span ng-controller="newDeviceController">
 	<span ng-init="{{url_for('newDevice')}}">
-	<form role="form" ng-submit="processForm()">
+	<form ng-submit="processForm('{{url_for('home')}}')" name="newDevice" role="form" novalidate="">
 		<div class="form-group">
-			<label>F5 Host Name:</label>
-			<input type="text" class="form-control" ng-model="device.hostName"/>
+			<label for="hostName">F5 Host Name:</label>
+			<input name="hostName" type="text" class="form-control" ng-model="device.hostName" required/>
+			<span class="bg-danger text-danger" ng-show="newDevice.hostName.$error.required && newDevice.hostName.$dirty">Host Name is Required</span>
 		</div>
 		<div class="form-group">
-			<label>Ip Address:</label>
-			<input type="text" class="form-control" ng-model="device.ipAddress"/>
+			<label for="ipAddress">Ip Address:</label>
+			<input name="ipAddress" type="text" class="form-control" ng-model="device.ipAddress" required/>
+			<span class="bg-danger text-danger" ng-show="newDevice.ipAddress.$error.required && newDevice.ipAddress.$dirty">IP Address is Required</span>
 		</div>
 		<div class="form-group">
-			<label>API Username:</label>
-			<input type="text" class="form-control" ng-model="device.apiUserName"/>
+			<label for="apiUserName">API Username:</label>
+			<input name="apiUserName" type="text" class="form-control" ng-model="device.apiUserName"/>
 		</div>
 		<div class="form-group">
-			<label>API Password:</label>
-			<input type="password" class="form-control" ng-model="device.apiPassword"/>
+			<label for="apiPassword">API Password:</label>
+			<input name="apiPassword" type="password" class="form-control" ng-model="device.apiPassword"/>
 		</div>
 		<div class="form-group">
-			<label>Device Description:</label>
-			<textarea class="form-control" rows="5" ng-model="device.details"></textarea>
+			<label for="details">Device Description:</label>
+			<textarea name="details" class="form-control" rows="5" ng-model="device.details"></textarea>
 		</div>
-		<button type="submit" class="btn btn-success btn-lg btn-block">
-		Submit!
-		</button>
-	</form>
+		<div ng-show="newDevice.$valid"><button type="submit" class="btn btn-success btn-lg btn-block">
+				Submit!</button>
+		</div>
+		<div ng-show="newDevice.$invalid"><div class="well text-warning">
+			Complete information to Submit!</div>
+
+		</form>
 
 
 </span>

@@ -12,7 +12,9 @@ var f5appDirectives = {}
 //directives
 
 
-
+f5appDirectives.ngValidate = function() {
+	return {}
+};
 
 
 //Link list of directives to app

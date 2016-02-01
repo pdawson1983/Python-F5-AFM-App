@@ -23,17 +23,17 @@ f5appControllers.HeaderController = function($scope, $window, $location){
 };
 
 //newDeviceController
-f5appControllers.newDeviceController = function($scope, $http){
+f5appControllers.newDeviceController = function($scope, $http, $window, $location){
 	$scope.url = '';
 	$scope.device = {};
-	$scope.processForm = function() {
+	$scope.processForm = function(path) {
 		$http({
 			method: 'POST',
 			url: $scope.url,
 			headers: { 'Content-Type': 'application/json' },
 			data: JSON.stringify($scope.device),
-		})
-
+		});
+		$window.location.href = path;
 	};
 };
 
