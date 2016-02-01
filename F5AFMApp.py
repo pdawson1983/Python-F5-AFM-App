@@ -32,7 +32,8 @@ def deviceList():
 @app.route('/device/new', methods=['GET','POST'])
 def newDevice():
 	if request.method == 'POST':
-		device = F5Device(hostName = request.form['hostName'], ipAddress = request.form['ipAddress'], details = request.form['details'], apiUserName = request.form['apiUserName'], apiPassword = request.form['apiPassword'])
+		post = request.get_json()
+		device = F5Device(hostName = post.get('hostName'), ipAddress = post.get('ipAddress'), details = post.get('details'), apiUserName = post.get('apiUserName'), apiPassword = post.get('apiPassword'))
 		session.add(device)
 		session.commit()
 		flash("Added New Device - %s" %device.hostName)
