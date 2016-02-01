@@ -32,7 +32,8 @@ def deviceList():
 @app.route('/device/new', methods=['GET','POST'])
 def newDevice():
 	if request.method == 'POST':
-		device = F5Device(hostName = request.form['hostName'], ipAddress = request.form['ipAddress'], details = request.form['details'], apiUserName = request.form['apiUserName'], apiPassword = request.form['apiPassword'])
+		post = request.get_json()
+		device = F5Device(hostName = post.get('hostName'), ipAddress = post.get('ipAddress'), details = post.get('details'), apiUserName = post.get('apiUserName'), apiPassword = post.get('apiPassword'))
 		session.add(device)
 		session.commit()
 		flash("Added New Device - %s" %device.hostName)
@@ -42,7 +43,8 @@ def newDevice():
 
 @app.route('/device/<int:device_id>')
 def device(device_id):
-    return "%s" % device_id
+    device = session.query(F5Device).filter_by(id = device_id).one()
+    return  render_template('device.html', device=device)
 
 @app.route('/device/<int:device_id>/stats/<int:stats_id>')
 def statPage(device_id, stats_id):
@@ -51,8 +53,8 @@ def statPage(device_id, stats_id):
     return text
 
 @app.route('/device/<int:device_id>/stats/new')
-def newStat():
-	return "This page will allow you to add stats. :)"
+def newStat(device_id):
+	return render_template('newstat.html')
 
 
 

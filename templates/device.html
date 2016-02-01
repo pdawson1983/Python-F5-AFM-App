@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block header %}
+{{super()}}
+{% endblock %}
+{% block content %}
+<h2>{{device.hostName}}</h2>
+<ul>
+	<li>Ip Address: {{device.ipAddress}}</li>
+	<li>Description: {{device.details}}</li>
+	{% if device.apiUserName %}
+	<li><font color=green>API Username is set</font></li>
+	{% else %}
+	<li><font color=red>API Username is not set</font></li>
+	{% endif %}
+	{% if device.apiPassword %}
+	<li><font color=green>API Password is set</font></li>
+	{% else %}
+	<li><font color=red>API Password is not set</font></li>
+	{% endif %}
+</ul>
+
+<a href="{{url_for('newStat', device_id=device.id)}}">Add New Stat</a>
+{% endblock %}
