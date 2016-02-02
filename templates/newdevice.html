@@ -20,8 +20,9 @@ background-color: rgb(255, 204, 153);
 		</div>
 		<div class="form-group">
 			<label for="ipAddress">Ip Address:</label>
-			<input name="ipAddress" type="text" class="form-control" ng-model="device.ipAddress" required/>
+			<input name="ipAddress" type="text" class="form-control" ng-model="device.ipAddress" ip-validate required/>
 			<span class="bg-danger text-danger" ng-show="newDevice.ipAddress.$error.required && newDevice.ipAddress.$dirty">IP Address is Required</span>
+			<span class="bg-danger text-danger" ng-show="newDevice.ipAddress.$error.validIpAddress && newDevice.ipAddress.$dirty">Invalid IP Address</span>
 		</div>
 		<div class="form-group">
 			<label for="apiUserName">API Username:</label>
@@ -42,7 +43,7 @@ background-color: rgb(255, 204, 153);
 			Complete information to Submit!</div>
 
 		</form>
-
+		
 
 </span>
 
