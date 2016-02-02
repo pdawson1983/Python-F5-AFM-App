@@ -1,0 +1,3664 @@
+{
+    "entries": {
+        "https://localhost/mgmt/tm/security/dos/device-config/ARP%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 379030070
+                    }, 
+                    "common.statsRate": {
+                        "value": 104
+                    }, 
+                    "common.stats_1h": {
+                        "value": 15
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 333
+                    }, 
+                    "common.stats_1m": {
+                        "value": 31
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "ARP flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/ARP%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20ICMP%20frame/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 129885
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 129885
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 12
+                    }, 
+                    "vectorName": {
+                        "description": "Bad ICMP frame"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20ICMP%20frame/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IP%20Option/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad IP Option"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IP%20Option/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IP%20TTL%20value/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad IP TTL value"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IP%20TTL%20value/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IP%20version/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad IP version"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IP%20version/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IPv6%20hop%20count/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad IPv6 hop count"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IPv6%20hop%20count/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IPv6%20version/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad IPv6 version"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20IPv6%20version/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20TCP%20checksum/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad TCP checksum"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20TCP%20checksum/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20TCP%20flags%20(all%20cleared)/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 2
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 31902823
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 98
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 31902823
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 98
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 1060
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad TCP flags (all cleared)"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20TCP%20flags%20(all%20cleared)/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20TCP%20flags%20(all%20flags%20set)/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 18
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 18
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad TCP flags (all flags set)"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20TCP%20flags%20(all%20flags%20set)/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20UDP%20checksum/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad UDP checksum"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20UDP%20checksum/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Bad%20UDP%20header%20(UDP%20length%20%3e%20IP%20length%20or%20L2%20length)/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 208438
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 208438
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Bad UDP header (UDP length > IP length or L2 length)"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Bad%20UDP%20header%20(UDP%20length%20%3e%20IP%20length%20or%20L2%20length)/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Ethernet%20MAC%20SA%20==%20DA/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Ethernet MAC SA == DA"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Ethernet%20MAC%20SA%20==%20DA/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Ethernet%20broadcast%20packet/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 377065096
+                    }, 
+                    "common.statsRate": {
+                        "value": 102
+                    }, 
+                    "common.stats_1h": {
+                        "value": 15
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 334
+                    }, 
+                    "common.stats_1m": {
+                        "value": 31
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Ethernet broadcast packet"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Ethernet%20broadcast%20packet/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Ethernet%20multicast%20packet/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 63654548
+                    }, 
+                    "common.statsRate": {
+                        "value": 3
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 3
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Ethernet multicast packet"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Ethernet%20multicast%20packet/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/FIN%20only%20set/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 2293
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 2293
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "FIN only set"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/FIN%20only%20set/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Flood%20attack/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 249
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 65
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 7786959522
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 3181845581
+                    }, 
+                    "vectorName": {
+                        "description": "Flood attack"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Flood%20attack/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Host%20unreachable/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 8
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 1334931
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 5
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 11912946
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 55
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 368031110
+                    }, 
+                    "common.statsRate": {
+                        "value": 2
+                    }, 
+                    "common.stats_1h": {
+                        "value": 2224
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 138753
+                    }, 
+                    "common.stats_1m": {
+                        "value": 57
+                    }, 
+                    "common.wlCount": {
+                        "value": 55971
+                    }, 
+                    "vectorName": {
+                        "description": "Host unreachable"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Host%20unreachable/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/ICMP%20fragmented/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 1539
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "ICMP fragmented"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/ICMP%20fragmented/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/ICMP%20frame%20too%20large/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 12956
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 12956
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 37
+                    }, 
+                    "vectorName": {
+                        "description": "ICMP frame too large"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/ICMP%20frame%20too%20large/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/ICMPv4%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 26
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 8298222
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 5269638
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 4
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 1391034645
+                    }, 
+                    "common.statsRate": {
+                        "value": 5
+                    }, 
+                    "common.stats_1h": {
+                        "value": 1788
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 267459
+                    }, 
+                    "common.stats_1m": {
+                        "value": 65
+                    }, 
+                    "common.wlCount": {
+                        "value": 773277
+                    }, 
+                    "vectorName": {
+                        "description": "ICMPv4 flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/ICMPv4%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/ICMPv6%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 24676
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "ICMPv6 flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/ICMPv6%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20Header%20length%20%3e%20L2%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP Header length > L2 length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20Header%20length%20%3e%20L2%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20Header%20length%20too%20short/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP Header length too short"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20Header%20length%20too%20short/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20error%20checksum/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP error checksum"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20error%20checksum/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20fragment%20error/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 21
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 226374335
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 1336
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 226374335
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 1336
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 17273
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP fragment error"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20fragment%20error/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20fragment%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 19
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 8130416
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 57
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 1613367708
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 1004
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 2514460092
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 16729
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 65354
+                    }, 
+                    "common.stats_1m": {
+                        "value": 3
+                    }, 
+                    "common.wlCount": {
+                        "value": 1586056
+                    }, 
+                    "vectorName": {
+                        "description": "IP fragment flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20fragment%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20length%20%3e%20L2%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP length > L2 length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20length%20%3e%20L2%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20option%20frames/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP option frames"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20option%20frames/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20overlapped%20fragment/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 47710
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP overlapped fragment"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20overlapped%20fragment/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IP%20short%20fragment/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 2
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 19290862
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 919
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 19290862
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 919
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 27037
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IP short fragment"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IP%20short%20fragment/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20duplicate%20extension%20headers/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 duplicate extension headers"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20duplicate%20extension%20headers/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20extended%20header%20frames/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 78
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 extended header frames"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20extended%20header%20frames/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20extended%20headers%20wrong%20order/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 extended headers wrong order"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20extended%20headers%20wrong%20order/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20extension%20header%20too%20large/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 extension header too large"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20extension%20header%20too%20large/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20fragment%20error/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 fragment error"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20fragment%20error/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20fragment%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 fragment flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20fragment%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20hop%20count%20%3c=%201/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 hop count <= 1"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20hop%20count%20%3c=%201/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20length%20%3e%20L2%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 length > L2 length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20length%20%3e%20L2%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20overlapped%20fragment/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 overlapped fragment"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20overlapped%20fragment/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20short%20fragment/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 short fragment"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20short%20fragment/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20too%20many%20extension%20headers/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "IPv6 too many extension headers"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/IPv6%20too%20many%20extension%20headers/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/L2%20length%20%3e%3e%20IP%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 8448
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 594951
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 3
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 106
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "L2 length >> IP length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/L2%20length%20%3e%3e%20IP%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/LAND%20attack/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "LAND attack"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/LAND%20attack/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/No%20L4%20(extension%20headers%20go%20to%20or%20past%20the%20end%20of%20frame)/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "No L4 (extension headers go to or past the end of frame)"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/No%20L4%20(extension%20headers%20go%20to%20or%20past%20the%20end%20of%20frame)/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/No%20L4/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "No L4"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/No%20L4/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Payload%20length%20%3c%20L2%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Payload length < L2 length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Payload%20length%20%3c%20L2%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Routing%20header%20type%200/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 0
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "Routing header type 0"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Routing%20header%20type%200/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/SYN%20&&%20FIN%20set/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 31666
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 31666
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "SYN && FIN set"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/SYN%20&&%20FIN%20set/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Sweep%20attack/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 223
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 24
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 6461543
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 3181845581
+                    }, 
+                    "vectorName": {
+                        "description": "Sweep attack"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Sweep%20attack/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20ACK%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 4
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 12480666
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 2393057967
+                    }, 
+                    "common.statsRate": {
+                        "value": 728
+                    }, 
+                    "common.stats_1h": {
+                        "value": 654
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 9235495
+                    }, 
+                    "common.stats_1m": {
+                        "value": 741
+                    }, 
+                    "common.wlCount": {
+                        "value": 2785683
+                    }, 
+                    "vectorName": {
+                        "description": "TCP ACK flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20ACK%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20Option%20present%20with%20illegal%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 771
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "TCP Option present with illegal length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20Option%20present%20with%20illegal%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20RST%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 15
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 819282
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 238313180
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 18267883666
+                    }, 
+                    "common.statsRate": {
+                        "value": 5969
+                    }, 
+                    "common.stats_1h": {
+                        "value": 5615
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 18853098
+                    }, 
+                    "common.stats_1m": {
+                        "value": 5776
+                    }, 
+                    "common.wlCount": {
+                        "value": 560994670
+                    }, 
+                    "vectorName": {
+                        "description": "TCP RST flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20RST%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20SYN%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 73
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 17502179
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 1745136727
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 29210855632
+                    }, 
+                    "common.statsRate": {
+                        "value": 5974
+                    }, 
+                    "common.stats_1h": {
+                        "value": 6087
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 21829834
+                    }, 
+                    "common.stats_1m": {
+                        "value": 6153
+                    }, 
+                    "common.wlCount": {
+                        "value": 603850392
+                    }, 
+                    "vectorName": {
+                        "description": "TCP SYN flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20SYN%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20SYN~ACK%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 16330
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 15293
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 19700047102
+                    }, 
+                    "common.statsRate": {
+                        "value": 5868
+                    }, 
+                    "common.stats_1h": {
+                        "value": 5899
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 20910117
+                    }, 
+                    "common.stats_1m": {
+                        "value": 6019
+                    }, 
+                    "common.wlCount": {
+                        "value": 17552947
+                    }, 
+                    "vectorName": {
+                        "description": "TCP SYN/ACK flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20SYN~ACK%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20header%20length%20%3e%20L2%20length/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 838
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 838
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "TCP header length > L2 length"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20header%20length%20%3e%20L2%20length/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20header%20length%20too%20short%20(length%20%3c%205)/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 5260
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 5260
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "TCP header length too short (length < 5)"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20header%20length%20too%20short%20(length%20%3c%205)/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TCP%20option%20overruns%20TCP%20header/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 1020
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 1
+                    }, 
+                    "vectorName": {
+                        "description": "TCP option overruns TCP header"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TCP%20option%20overruns%20TCP%20header/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TIDCMP%20attack/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 2
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 3815609
+                    }, 
+                    "common.statsRate": {
+                        "value": 0
+                    }, 
+                    "common.stats_1h": {
+                        "value": 364
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 3670
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 0
+                    }, 
+                    "vectorName": {
+                        "description": "TIDCMP attack"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TIDCMP%20attack/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/TTL%20%3c=%201/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 7
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 124271
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 11
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 1475619
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 167
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 75168647
+                    }, 
+                    "common.statsRate": {
+                        "value": 1
+                    }, 
+                    "common.stats_1h": {
+                        "value": 1379
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 27136
+                    }, 
+                    "common.stats_1m": {
+                        "value": 3
+                    }, 
+                    "common.wlCount": {
+                        "value": 15045
+                    }, 
+                    "vectorName": {
+                        "description": "TTL <= 1"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/TTL%20%3c=%201/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/UDP%20flood/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 73
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 491262
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 82920939
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 18169493677
+                    }, 
+                    "common.statsRate": {
+                        "value": 1446
+                    }, 
+                    "common.stats_1h": {
+                        "value": 736
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 43507356
+                    }, 
+                    "common.stats_1m": {
+                        "value": 696
+                    }, 
+                    "common.wlCount": {
+                        "value": 173779111
+                    }, 
+                    "vectorName": {
+                        "description": "UDP flood"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/UDP%20flood/stats?ver=11.5.1"
+            }
+        }, 
+        "https://localhost/mgmt/tm/security/dos/device-config/Unknown%20TCP%20option%20type/stats": {
+            "nestedStats": {
+                "entries": {
+                    "common.attackCount": {
+                        "value": 0
+                    }, 
+                    "common.attackDetected": {
+                        "value": 0
+                    }, 
+                    "common.drops": {
+                        "value": 0
+                    }, 
+                    "common.dropsRate": {
+                        "value": 0
+                    }, 
+                    "common.drops_1h": {
+                        "value": 0
+                    }, 
+                    "common.drops_1m": {
+                        "value": 0
+                    }, 
+                    "common.intDrops": {
+                        "value": 0
+                    }, 
+                    "common.intDropsRate": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1h": {
+                        "value": 0
+                    }, 
+                    "common.intDrops_1m": {
+                        "value": 0
+                    }, 
+                    "common.stats": {
+                        "value": 458696
+                    }, 
+                    "common.statsRate": {
+                        "value": 1
+                    }, 
+                    "common.stats_1h": {
+                        "value": 0
+                    }, 
+                    "common.stats_1hSamples": {
+                        "value": 0
+                    }, 
+                    "common.stats_1m": {
+                        "value": 0
+                    }, 
+                    "common.wlCount": {
+                        "value": 435
+                    }, 
+                    "vectorName": {
+                        "description": "Unknown TCP option type"
+                    }
+                }, 
+                "kind": "tm:security:dos:device-config:device-configstats", 
+                "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/Unknown%20TCP%20option%20type/stats?ver=11.5.1"
+            }
+        }
+    }, 
+    "kind": "tm:security:dos:device-config:device-configcollectionstats", 
+    "selfLink": "https://localhost/mgmt/tm/security/dos/device-config/stats?ver=11.5.1"
+}
