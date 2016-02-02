@@ -54,7 +54,7 @@ def statPage(device_id, stats_id):
 
 @app.route('/device/<int:device_id>/stats/new')
 def newStat(device_id):
-	return render_template('newstat.html')
+	return render_template('newstat.html', device_id = device_id)
 
 
 

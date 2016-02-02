@@ -37,6 +37,20 @@ f5appControllers.newDeviceController = function($scope, $http, $window, $locatio
 	};
 };
 
+f5appControllers.newStatController = function($scope, $http, $window, $location){
+	
+	$scope.url = '';
+	$scope.stats = {};
+	$scope.processForm = function(path) {
+		$http({
+			method: 'POST',
+			url: $scope.url,
+			headers: { 'Content-Type': 'application/json' },
+			data: JSON.stringify($scope.device),
+		});
+		$window.location.href = path;
+	};
+};
 //Link list of controllers to app
 f5app.controller(f5appControllers);
 

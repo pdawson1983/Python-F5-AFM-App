@@ -9,9 +9,11 @@
 .well{
 background-color: rgb(255, 204, 153);
 }
-</style>	
+</style>
+
 <span ng-controller="newDeviceController">
-	<span ng-init="{{url_for('newDevice')}}">
+	{% set url = url_for('newDevice') %}
+	<span ng-init="url = '{{url}}'"></span>
 	<form ng-submit="processForm('{{url_for('home')}}')" name="newDevice" role="form" novalidate="">
 		<div class="form-group">
 			<label for="hostName">F5 Host Name:</label>
@@ -43,7 +45,6 @@ background-color: rgb(255, 204, 153);
 			Complete information to Submit!</div>
 
 		</form>
-		
 
 </span>
 
@@ -51,6 +52,6 @@ background-color: rgb(255, 204, 153);
  
 {% block scripts %}
 
-<!--SOME VALIDATION SCRIPT IS NEEDED!!!!--!> 
+ 
 
 {% endblock %}

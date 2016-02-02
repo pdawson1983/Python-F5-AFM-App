@@ -5,24 +5,22 @@
 {% endblock %}
 
 {% block content %}
+<style>
+.well{
+background-color: rgb(255, 204, 153);
+}
+</style>
+<span ng-controller="newStatController">
+	{% set url = url_for('newStat', device_id=device_id) %}
+	<span ng-init="url = '{{url}}'"></span>
+	<form ng-submit="processForm('{{url_for('home')}}')" name="modifyStats" role="form" novalidate="">
 
-  
-
-<form id="newDevice" action="{{url_for('newDevice')}}" method="POST"> 
-	Host Name: <input type="text" name="hostName" /></br> 
-	IP Address: <input type="text" name="ipAddress" /></br>
-	API Username: <input type="text" name="apiUserName" /> </br>
-	API Password: <input type="text" name="apiPassword" /> </br>
-	Details:</br> <textarea name="details"></textarea> </br>
-
-    <input type="submit" value="Submit New F5 Device" /> 
-</form>
-
-
+	</form>
+</span>
 {% endblock %}
  
 {% block scripts %}
 
-<!--SOME VALIDATION SCRIPT IS NEEDED!!!!--!> 
+ 
 
 {% endblock %}
