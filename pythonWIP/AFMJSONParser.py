@@ -1,5 +1,5 @@
 import json
-from collection import defaultdict
+from collections import defaultdict
 #data is the F5 JSON response to the query to https://localhost/mgmt/tm/security/dos/device-config/stats
 
 def parser(data):

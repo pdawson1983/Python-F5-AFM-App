@@ -4,6 +4,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from configure_database import Base, F5Device, AFMStat, StatValue
 
+#ssl context information.  This is built into flask.  Just provide the certificate and key to flask.
+context = ('cert.crt','key.key')
+
+
 engine = create_engine('sqlite:///F5AFM_App.db')
 Base.metadata.bind = engine
 
@@ -13,6 +17,8 @@ session = DBSession()
 #spawn Flask application
 app = Flask(__name__)
 app.secret_key = '13641ijkqrewf9dflkq359faan230fanoacv92r3noj2398cncq92njfqwfughq9f0823nbr9fjawh90q23rlkijqhwef98qroh'
+
+
 #Added Favicon Support
 @app.route('/favicon.ico')
 def favicon():
@@ -61,4 +67,4 @@ def newStat(device_id):
  
 
 if __name__=='__main__':
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=443, debug=True, ssl_context=context)
