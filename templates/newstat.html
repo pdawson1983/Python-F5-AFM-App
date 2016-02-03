@@ -11,11 +11,21 @@ background-color: rgb(255, 204, 153);
 }
 </style>
 <span ng-controller="newStatController">
+	{& vectors &}
+
 	{% set url = url_for('newStat', device_id=device_id) %}
 	<span ng-init="url = '{{url}}'"></span>
 	<form ng-submit="processForm('{{url_for('home')}}')" name="modifyStats" role="form" novalidate="">
-
+		
+		<div ng-repeat="vector in vectors">
+			<div class="form-group">
+				<input type="checkbox" ng-model="vector.isChecked"/>
+				<label class="checkbox-inline">{& vector.name &}</label>
+		
+			</div>
+		</div>
 	</form>
+	
 </span>
 {% endblock %}
  

@@ -13,6 +13,7 @@ background-color: rgb(255, 204, 153);
 
 <span ng-controller="newDeviceController">
 	{% set url = url_for('newDevice') %}
+	{{device_id}}
 	<span ng-init="url = '{{url}}'"></span>
 	<form ng-submit="processForm('{{url_for('home')}}')" name="newDevice" role="form" novalidate="">
 		<div class="form-group">

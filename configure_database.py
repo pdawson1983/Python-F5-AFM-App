@@ -26,6 +26,7 @@ class AFMStat(Base):
     f5Device_Id = Column(Integer, ForeignKey('f5_device.id'))
     statType = Column(String(20))
     statDescription = Column(String(250))
+    # Will need to edit stat url to better describe what information is needed here. 
     statURL = Column(String(250), nullable=False)
 
 #StatValue holds date, time and value information for the various 
