@@ -11,7 +11,8 @@ background-color: rgb(255, 204, 153);
 }
 </style>
 <span ng-controller="newStatController">
-	{& vectors &}
+	{# device_id wll be used to identify what device the stats are for.  This will be passed through the GET request to the scope #}
+	<!--{& vectors &}--!>
 
 	{% set url = url_for('newStat', device_id=device_id) %}
 	<span ng-init="url = '{{url}}'"></span>
